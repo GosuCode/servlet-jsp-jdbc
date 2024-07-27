@@ -1,6 +1,77 @@
-# NetBeans
+# IDE-specific files (for NetBeans)
 nbproject/private/
-build/
+nbbuild/
 dist/
-.nb-gradle/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# Maven/Gradle specific files
+target/
+build/
+
+# Compiled Java class files
 *.class
+
+# Log files
+*.log
+
+# Database files
+*.db
+
+# Local configuration files
+*.local
+*.bak
+*.tmp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Sensitive information
+*.key
+*.pem
+*.crt
+*.env
+
+# JetBrains IDEs (IntelliJ IDEA, PyCharm, etc.)
+.idea/
+*.iml
+
+# Eclipse IDE
+.project
+.classpath
+.settings/
+
+# IntelliJ IDEA
+*.ipr
+*.iws
+*.iml
+.idea/
+
+# VS Code
+.vscode/
+
+# Backup files
+*.bak
+*.swp
+
+# Build output
+/build/
+
+# Temporary files
+/tmp/
+*.tmp
+
+# Tomcat specific files
+*.war
+*.ear
+*.jar
+conf/
+logs/
+temp/
+work/
+
+# Configuration files
+*.config
+*.properties
