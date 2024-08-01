@@ -75,3 +75,4 @@ work/
 # Configuration files
 *.config
 *.properties
+/Form/nbproject/private/
